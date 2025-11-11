@@ -1,0 +1,35 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  @include flex-center;
+}
+
+// @mixin button {
+//   width: 100px;
+//   height: 40px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border: 5px solid #15ff00;
+//   background-color: #7aff6e;
+//   color: white;
+//   box-shadow: #15ff00 5px 5px 5px;
+// }
+
+// .button {
+//   @include button;
+// }
+
+@mixin flex($direction: row, $justify: center, $align: center, $wrap: nowrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+.container {
+  @include flex(row, center, flex-end, nowrap);
+}

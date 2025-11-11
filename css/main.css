@@ -1,9 +1,20 @@
-body {
-  background-color: #1f1f1f;
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
 }
 
 h1 {
   background-color: green;
+  padding: 10px 20px;
 }
 
 h1 {
@@ -16,4 +27,4 @@ h1 {
 
 h1 {
   box-shadow: #000 5px 5px 4px;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
