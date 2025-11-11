@@ -1,3 +1,7 @@
+body {
+  background-color: #1f1f1f;
+}
+
 h1 {
   background-color: green;
 }
@@ -12,4 +16,4 @@ h1 {
 
 h1 {
   box-shadow: #000 5px 5px 4px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
